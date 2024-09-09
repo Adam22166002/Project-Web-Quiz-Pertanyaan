@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyProperti</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <!-- boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">
+          <a href="./index.html" style="text-decoration: none">
+            <h2>
+              MyProperti <br />
+              <span id="black-title">Residence</span>
+            </h2>
+          </a>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <button class="close_btn" id="close_btn">
+            <i class="fa fa-arrow-right"></i>
+          </button>
+
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <a href="./index.html" class="nav_menu_link"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav_menu_item">
+              <a href="./tipe_rumah.html" class="nav_menu_link menu_active">Tipe Rumah</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="./tentang.html" class="nav_menu_link">Tentang Kami</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="./kontak.html" class="nav_menu_link">Kontak</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="./blog.html" class="nav_menu_link">Blog</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn">
+          <i class="fa fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+    <!-- header -->
+
+    <!-- container title -->
+    <section class="wrapper-content"></section>
+    <!-- container title -->
+
+    <!-- section content 2layar -->
+    <div class="container-fluid pb-4 mb-3 detail_tipe_rumah">
+      <div class="row">
+        <div class="col-md-6 mt-4 mb-4">
+          <img 
+            src="./img/house-1.png" id="gambar_rumah"
+            alt="Gambarrumah"
+            class="img-fluid" style="padding-left: 4px;"
+          />
+        </div>
+        <div class="col-md-6 mt-4 ps-4 pe-4">
+          <h2 id="title-nama-rumah"></h2>
+          <p id="deskripsi-rumah"></p>
+          <div class="row">
+            <div class="col-md-4 ml-4 mb-3">
+              <div class="card justify-content-center px-3 tipe_rumah_item">
+                <i class="fa fa-money"></i>
+                <h3 id="harga-rumah"></h3>
+                <p>Harga</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card justify-content-center px-2 tipe_rumah_item">
+                  <i class="fa fa-building"></i>
+                  <h3 id="luas-bangunan-rumah">180</h3>
+                  <p>Luas Bangunan</p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card justify-content-center px-3 tipe_rumah_item">
+                  <i class="fa fa-briefcase"></i>
+                  <h3 id="luas-tanah-rumah"></h3>
+                  <p>Luas Tanah</p>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 ml-4 mb-3">
+              <div class="card justify-content-center px-3 tipe_rumah_item">
+                <i class="fa fa-bath"></i>
+                <h3 id="kamar-mandi-rumah"></h3>
+                <p>Kamar Mandi</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card justify-content-center px-2 tipe_rumah_item">
+                  <i class="fa fa-bed"></i>
+                  <h3 id="kamar-tidur-rumah"></h3>
+                  <p>Kamar Tidur</p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card justify-content-center px-3 tipe_rumah_item">
+                  <i class="fa fa-car"></i>
+                  <h3 id="carport-rumah"></h3>
+                  <p>Carport</p>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 ml-4 mb-3">
+              <div class="card justify-content-center px-3 tipe_rumah_item">
+                <i class="fa fa-shower"></i>
+                <h3>FREE</h3>
+                <p>Kanopi</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card justify-content-center px-2 tipe_rumah_item">
+                  <i class="fa fa-shower"></i>
+                  <h3>FREE</h3>
+                  <p>Pompa Air</p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card justify-content-center px-3 tipe_rumah_item">
+                  <i class="fa fa-shower"></i>
+                  <h3>FREE</h3>
+                  <p>Toren Air</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container pt-4 pb-4 mt-2 mb3 ps-4 pe-4">
+        <div class="row">
+            <div class="col-md-6 mt-4 mb-4">
+                <img id="denah-rumah" src="./img/denah_rumah.jpg" alt="denahrumah" class="img-fluid"/>
+            </div>
+            <div class="col-md-6 mt-4 mb-4" style="padding-left: 10px;">
+                <h1>KONTAK</h1>
+                <p>Hubungi Kami untuk informasi selanjutnya</p>
+                <a href="https://api.whatsapp.com/send/?phone=6285640600585&am; text=Halo" class="d-flex" style="text-decoration: none;">
+                    <i class="fa fa-phone me-2 mt-1"></i>
+                    <p>+6285640600585</p>
+                </a>
+                <a href="maito:adam.visionary15@gmail.com" class="d-flex" style="text-decoration: none;">
+                    <i class="fa fa-paper-plane me-2 mt-1"></i>
+                    <p>adam.visionary15@gmail.com</p>
+                </a>
+                <a href="https://api.whatsapp.com/send/?phone=6285640600585&am; text=Halo" class="btn_home view_more_btn" style="text-decoration: none; color: white;">
+                    <i class="fa fa-phone"></i>
+                    &nbsp;
+                    Klik Disini
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-4 pb-4 mt-2 mb-3 ps-4 pe-4">
+    <h2 class="text-center">Lihat Tipe Lain</h2>
+    <br>
+    <div class="row" id="lihatTipeLain">
+        <!-- content load from JavaScript -->
+    </div>
+</div>
+
+    <!-- section content -->
+
+
+    <!-- js -->
+
+    <!-- Footer-->
+    <br /><br /><br />
+    <footer class="footer">
+      <div>Copyright &copy; Adam Portfolio 2024</div>
+    </footer>
+    <!-- Footer -->
+    <!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="./js/script.js" defer></script>
+  </body>
+</html>
